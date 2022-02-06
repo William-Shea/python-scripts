@@ -1,10 +1,11 @@
 # This is a SubDomain Brute Force Tool
-##### Provide a wordlist of subdomains and a domain
-
+## Description
+All you have to do is provide a domain and a wordlist containing subdomains you want to be tested.
+## SETUP
 ```bash
 Setup: pip install -r requirements.txt
 ```
-
+## USAGE
 ```bash
 Usage: python sub-brute.py domain.com wordlist.txt
 ```
