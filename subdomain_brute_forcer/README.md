@@ -1,4 +1,4 @@
-# This is a SubDomain Brute Force Tool
+# SubDomain Brute Force Tool
 ## Description
 All you have to do is provide a domain and a wordlist containing subdomains you want to be tested.
 ## SETUP
