@@ -9,8 +9,8 @@ import random
 
 ## Parsing the different command line arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-d", required=True, help="Domain")
-parser.add_argument("-w", required=True, help="Path to wordlist")
+parser.add_argument("-d", required=True, type=str, help="Domain")
+parser.add_argument("-w", required=True, type=str, help="Path to wordlist")
 parser.add_argument("-o", type=str, help="Path to output file")
 parser.add_argument("-files", action="store_true", help="Find potentially important files")
 args = parser.parse_args()
