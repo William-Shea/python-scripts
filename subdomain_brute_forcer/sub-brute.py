@@ -103,7 +103,7 @@ def main():
                             file_exists = os.path.exists('.google-cookie')
                             if file_exists:
                                 os.remove('.google-cookie')
-                            print(f'{p}', 'green')
+                            print(colored(f'{p}', 'green'))
                 except KeyboardInterrupt:
                     file_exists = exists('.google-cookie')
                     if file_exists:
@@ -118,7 +118,7 @@ def main():
                             file_exists = os.path.exists('.google-cookie')
                             if file_exists:
                                 os.remove('.google-cookie')
-                            print(f'{e}', 'green')
+                            print(colored(f'{e}', 'green'))
                 except KeyboardInterrupt:
                     file_exists = exists('.google-cookie')
                     if file_exists:
@@ -133,7 +133,7 @@ def main():
                             file_exists = os.path.exists('.google-cookie')
                             if file_exists:
                                 os.remove('.google-cookie')
-                            print(f'{m}', 'green')            
+                            print(colored(f'{m}', 'green'))            
                 except KeyboardInterrupt:
                     file_exists = exists('.google-cookie')
                     if file_exists:
