@@ -1,3 +1,6 @@
 dnspython
 termcolor
 argparse
+google
+googlesearch-python
+
