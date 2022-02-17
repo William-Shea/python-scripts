@@ -27,5 +27,5 @@ Basic Usage: sub-brute.py -d DOMAIN.COM -w subdomains.txt
 Output Files: sub-brute.py -d DOMAIN.COM -w subdomains.txt -o output.txt
 ```
 ```bash
-Search for Files: sub-brute.py -domain DOMAIN.COM -wordlist subdomains.txt -files
+Search for Files: sub-brute.py -d DOMAIN.COM -w subdomains.txt -files
 ```
